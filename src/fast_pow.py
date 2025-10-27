@@ -1,11 +1,12 @@
 def fastPow(number, power):
+    result = number
     if power == 0:
         return 1
     power_abs = abs(power)
     while power_abs != 1:
-        number *= number
-        power_abs //= 2
+        result *= number
+        power_abs -= 1
     if power >= 0:
-        return number
+        return result
     else:
-        return 1 / number
+        return 1 / result
