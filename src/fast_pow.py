@@ -9,6 +9,3 @@ def fastPow(number, power):
         return number
     else:
         return 1/number
-
-num = 2
-print(fastPow(num, 0))
