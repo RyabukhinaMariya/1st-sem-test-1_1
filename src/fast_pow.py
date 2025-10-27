@@ -8,4 +8,4 @@ def fastPow(number, power):
     if power >= 0:
         return number
     else:
-        return 1/number
+        return 1 / number
