@@ -15,3 +15,7 @@ def test neg_pow():
 
 def test zero_pow():
     assert fastPow(2, 0) == 1
+
+
+def test neg_result():
+    assert fastPow(-2, 5) == -32
