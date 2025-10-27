@@ -3,7 +3,7 @@ def fastPow(number, power):
         return 1
     power_abs = abs(power)
     while power_abs != 1:
-        number **= 2
+        number *= number
         power_abs //= 2
     if power >= 0:
         return number
